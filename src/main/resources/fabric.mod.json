@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "cosmeticwings",
+  "version": "${version}",
+  "name": "Cosmetic Wings",
+  "description": "Client-side ANGEL and DEMON cosmetics for Minecraft 1.21.4.",
+  "authors": ["CosmeticWings"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.cosmeticwings.CosmeticWingsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}
